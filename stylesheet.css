@@ -1,4 +1,15 @@
 /* latin-ext */
+@news-date {
+  font-weight: bold; /* Makes the date bold */
+  font-size: 1.2em; /* Increase the date font size */
+  margin-right: 20px; /* Increased space after the date */
+  display: inline-block; /* Ensures the spacing is applied correctly */
+}
+
+@news-item {
+  margin-bottom: 40px; /* Increased space between news items */
+}
+
 @font-face {
   font-family: 'Lato';
   font-style: italic;
