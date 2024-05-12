@@ -69,43 +69,56 @@
 
 
 
-    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-  <tbody>
-    <tr>
-      <td>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <style>
+        .news {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            max-height: 300px; /* You can adjust this value based on your needs */
+            overflow-y: scroll; /* Enables vertical scrolling */
+        }
+        table {
+            width: 100%;
+        }
+        th, td {
+            padding: 8px; /* Adds space around text in table cells */
+            text-align: left; /* Aligns text to the left */
+        }
+    </style>
+</head>
+<body>
+    <div class="news">
         <h2>News</h2>
-        <!-- News Container Starts Here -->
-        <div style="overflow-y: auto; max-height: 400px; padding: 20px;">
-          <!-- First News Item Starts Here -->
-          <div style="margin-bottom: 25px; display: flex; align-items: center;">
-            <strong style="font-size: 1.0em; margin-right: 15px; text-align: left; flex: 0 0 auto;">2024/04/17</strong>
-            <span>One paper about time series was accepted by  <b>IJCAI</b>! Gratitude to all collaborators!</span>
-          </div>
-          <!-- First News Item Ends Here -->
-
-          <div style="margin-bottom: 25px; display: flex; align-items: center;">
-            <strong style="font-size: 1.0em; margin-right: 15px; text-align: left; flex: 0 0 auto;">2023/12/01</strong>
-            <span>I decided to accept the  <b>MPhil</b> offer from  <b>HKUST(GZ)</b> Fok Ying Tung Graduate School! </span>
-          </div>
-          
-          <!-- Second News Item Starts Here (Duplicate of the First One) -->
-          <div style="margin-bottom: 25px; display: flex; align-items: center;">
-            <strong style="font-size: 1.0em; margin-right: 15px; text-align: left; flex: 0 0 auto;">2023/10/26</strong>
-            <span>One paper about PM2.5 forecasting was accepted by  <b>Atmosphere</b>! Gratitude to all collaborators!</span>
-          </div>
-          
-           <div style="margin-bottom: 25px; display: flex; align-items: center;">
-            <strong style="font-size: 1.0em; margin-right: 15px; text-align: left; flex: 0 0 auto;">2023/08/25</strong>
-            <span>One paper about ASD detection was accepted by  <b>PRICAI</b>! Gratitude to all collaborators!</span>
-          </div>
-          
+        <div class="table-responsive">
+            <table class="table table-sm table-borderless">
+                <tr>
+                    <th scope="row">2024/04/17</th>
+                    <td>One paper about time series was accepted by  <b>IJCAI</b>! Gratitude to all collaborators!</td>
+                </tr>
+              <tr>
+                    <th scope="row">2023/12/01</th>
+                    <td>I decided to accept the  <b>MPhil</b> offer from  <b>HKUST(GZ)</b> Fok Ying Tung Graduate School!</td>
+                </tr>
+              <tr>
+                    <th scope="row">2023/10/26</th>
+                    <td>One paper about PM2.5 forecasting was accepted by  <b>Atmosphere</b>! Gratitude to all collaborators!</td>
+                </tr>
+              <tr>
+                    <th scope="row">2023/08/25</th>
+                    <td>One paper about ASD detection was accepted by  <b>PRICAI</b>! Gratitude to all collaborators!</td>
+                </tr>
+                <!-- You can add more news items here -->
+            </table>
         </div>
-        <!-- News Container Ends Here -->
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+    </div>
+</body>
+</html>
 
     
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
